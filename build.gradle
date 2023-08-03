@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(
+            'junit:junit:4.13.2',
+            'org.junit.jupiter:junit-jupiter-api:5.8.2',
+            'org.junit.jupiter:junit-jupiter-params:5.8.2',
+            'org.mockito:mockito-core:4.6.0',
+            'org.mockito:mockito-junit-jupiter:4.6.0',
+            'org.seleniumhq.selenium:selenium-java:4.11.0',
+            'org.seleniumhq.selenium:selenium-chrome-driver:4.11.0'
+    )
+}
+
+test {
+    useJUnitPlatform()
+}
