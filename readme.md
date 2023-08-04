@@ -11,6 +11,7 @@
 - set both build and run using 'Intellij IDEA'
 7. Go to File / Project Structure / Project and set installed SDK.
 8. You should notice that in the meantime gradle dependencies are installed. If not, go to gradle tab at the right panel and choose "Reload" button.
-9. Now everything should be ready.
+9. Test uses Chrome browser - I advise you to have the actual version.
+10. Now everything should be ready.
 10. Go to XYZBankTest.java file and run test by simply clicking the visible green arrow to the left of the class name.
 11. Watch the show :)
